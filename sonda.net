@@ -1,0 +1,234 @@
+# EESchema Netlist Version 1.1 created  2015-03-14 14:40:23
+(
+ ( /55038C95 SM1206 C1 470n
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /55038FF4 SM1206 C2 470n
+  ( 1 VCC )
+  ( 2 N-000006 )
+ )
+ ( /55038F75 SM1206 C3 470n
+  ( 1 N-000015 )
+  ( 2 GND )
+ )
+ ( /550392F6 SM1206POL D1 green
+  ( 1 VCC )
+  ( 2 N-000013 )
+ )
+ ( /55039326 SM1206POL D2 yellow
+  ( 1 N-000002 )
+  ( 2 N-000003 )
+ )
+ ( /55039267 SM1206POL D3 red
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /550396C1 SM1206POL D4 1N4148
+  ( 1 N-000006 )
+  ( 2 N-000013 )
+ )
+ ( /55039045 SM1206POL D5 green
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /550394B3 SM1206POL D6 1N4148
+  ( 1 N-000011 )
+  ( 2 N-000015 )
+ )
+ ( /550391D8 SM1206POL D7 red
+  ( 1 VCC )
+  ( 2 N-000016 )
+ )
+ ( /5503A4C4 1pin_SMD P1 CONN_1
+  ( 1 VCC )
+ )
+ ( /5503A4DD 1pin_SMD P2 CONN_1
+  ( 1 GND )
+ )
+ ( /55039E82 1pin_SMD P3 Sonda
+  ( 1 N-000010 )
+ )
+ ( /55036FFF SM1206 R1 1M
+  ( 1 VCC )
+  ( 2 N-000010 )
+ )
+ ( /550374EF SM1206 R2 1M
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /5503791F SM1206 R3 220k
+  ( 1 N-000009 )
+  ( 2 VCC )
+ )
+ ( /55037964 SM1206 R4 220k
+  ( 1 N-000012 )
+  ( 2 N-000009 )
+ )
+ ( /55037981 SM1206 R5 220k
+  ( 1 GND )
+  ( 2 N-000012 )
+ )
+ ( /55037D63 SM1206 R6 220R
+  ( 1 N-000004 )
+  ( 2 N-000002 )
+ )
+ ( /55037E20 SM1206 R7 100R
+  ( 1 N-000013 )
+  ( 2 N-000004 )
+ )
+ ( /55037E59 SM1206 R8 220R
+  ( 1 N-000011 )
+  ( 2 N-000003 )
+ )
+ ( /55037E7C SM1206 R9 220k
+  ( 1 N-000007 )
+  ( 2 N-000006 )
+ )
+ ( /55037EA3 SM1206 R10 220k
+  ( 1 N-000014 )
+  ( 2 N-000015 )
+ )
+ ( /55039D59 SOT23EBC T1 BC857
+  ( B N-000007 )
+  ( C N-000008 )
+  ( E VCC )
+ )
+ ( /55039CAA SOT23EBC T2 BC847
+  ( B N-000014 )
+  ( C N-000016 )
+  ( E GND )
+ )
+ ( /550432F3 SO8E U1 LM358
+  ( 1 N-000003 )
+  ( 2 N-000010 )
+  ( 3 N-000012 )
+  ( 4 GND )
+  ( 5 N-000009 )
+  ( 6 N-000010 )
+  ( 7 N-000004 )
+  ( 8 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
